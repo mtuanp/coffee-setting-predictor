@@ -18,4 +18,11 @@ This project is a small educational project for predicting my espresso setting b
 
 - Python 3.12.3
 
+## Initial setup
+
+1. python3 -m venv ./venv
+2. source ./venv/bin/activate.fish
+3. python3 -m pip install -r requirements.txt
+
+
 ...

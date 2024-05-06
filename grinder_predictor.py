@@ -28,6 +28,6 @@ if __name__ == '__main__':
     predictor = CoffeePredictor()
     predictor.load_model('coffee_grinder_model.keras')
 
-    predicted_output = predictor.predict(1,1,4,32,25,16,10)
+    predicted_output = predictor.predict(0,0,3,32,25,16,10)
 
     print(f'Predicted output: {predicted_output}')

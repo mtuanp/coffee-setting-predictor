@@ -1,6 +1,6 @@
 # coffee-grinder-predictor
 
-This project is a small educational project for predicting my espresso setting by deep learning.
+This project is a small educational project for predicting my espresso setting by deep learning. It uses a simple feedforward neural network with two hidden layers.
 
 ## My espresso setup
 
@@ -20,9 +20,17 @@ This project is a small educational project for predicting my espresso setting b
 
 ## Initial setup
 
-1. python3 -m venv ./venv
-2. source ./venv/bin/activate.fish
-3. python3 -m pip install -r requirements.txt
+1. ``python3 -m venv ./venv``
+2. ``source ./venv/bin/activate``
+3. ``python3 -m pip install -r requirements.txt``
 
+## How to use it
 
-...
+1. ``source ./venv/bin/activate``
+2. ``python3 -m grinder_model_trainer``
+3. ``python3 -m grinder_predictor``
+
+## Plans
+
+1. web ui for input the test data 
+2. web ui for calling the predictor
